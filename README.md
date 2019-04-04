@@ -1,4 +1,4 @@
-Password-manager
+Password-manager \n
 using argparse,json,pyAesCrypt
 need choose superpassword to acces file
 possible to
