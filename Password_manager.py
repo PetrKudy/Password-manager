@@ -121,7 +121,7 @@ def Control(args): # controling inputs and call method from PWManager
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description = 'PassWordManager2019 - storying passwords in formate JSON ... {email:****,pornhub:*****,etc}')
+    parser = argparse.ArgumentParser(description = 'PassWordManager2019 - storying passwords in formate JSON ... {email:****,pornhub:*****,etc.}')
     parser.add_argument("-a","--add_record",nargs=2, help ="add record to list, values:record password")
     parser.add_argument("-d","--delete_record", help ="delete record from list, value:record")
     parser.add_argument("-e","--edit_record",nargs=2, help ="edit record in list, values:record new_password")
